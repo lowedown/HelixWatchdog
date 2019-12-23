@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelixWatchdog": {
+      "commandName": "Project",
+      "commandLineArgs": "--source \"c:\\dev\\myproject\\src\" --pattern \"*.cs|*.csproj|*.config\" --namespace My.Name.Space"
+    }
+  }
+}
