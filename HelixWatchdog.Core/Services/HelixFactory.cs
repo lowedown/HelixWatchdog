@@ -37,7 +37,13 @@ namespace HelixWatchdog.Core.Services
                 $@"{namespacePrefix}\.(Project|Feature|Foundation|Website)\.\w+\.",
                 RegexOptions.IgnoreCase);
 
-            return matches.Select(m => GetReference(m.ToString().Remove(0, namespacePrefix.Length + 1))).ToList();
+            var results = new List<HelixReference>();
+            foreach(var match in matches)
+            {
+                results.Add(GetReference(match.ToString().Remove(0, namespacePrefix.Length + 1)));
+            }
+
+            return results;
         }
     }
 }

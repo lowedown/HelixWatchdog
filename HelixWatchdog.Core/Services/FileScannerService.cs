@@ -21,9 +21,9 @@ namespace HelixWatchdog.Core.Services
 
         public IList<HelixModule> ScanFiles(string startPath, string pattern, string namespacePrefix)
         {
-            if (!startPath.EndsWith('\\'))
+            if (!startPath.EndsWith("\\"))
             {
-                startPath += '\\';
+                startPath += "\\";
             }
 
             IList<string> files = _fileSystem.GetFiles(startPath, pattern);

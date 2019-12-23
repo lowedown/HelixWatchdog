@@ -71,7 +71,7 @@ namespace HelixWatchdog
             if (!Directory.Exists(opts.Source))
             {
                 Console.WriteLine($"Directory {opts.Source} does not exist.");
-                return;
+                Environment.Exit(-1);
             }
 
             var validators = new List<IHelixFileValidator>()
@@ -116,9 +116,10 @@ namespace HelixWatchdog
             if (errorCount == 0)
             {
                 Console.WriteLine("...nothing suspicious found. Carry on.");
+                Environment.Exit(0);
             }
 
-            Console.Read();
+            Environment.Exit(-1);
         }
     }
 }

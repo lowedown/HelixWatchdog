@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog", "HelixWatchdog\HelixWatchdog.csproj", "{10BD501C-0F5E-4956-BC57-8AA73C7251E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog.Core", "HelixWatchdog.Core\HelixWatchdog.Core.csproj", "{5FF59581-7C34-4231-872D-18DBE3761891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog.Tests", "HelixWatchdog.Tests\HelixWatchdog.Tests.csproj", "{500D5F2E-3A69-4C19-8E24-C31349B274A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog", "HelixWatchdog\HelixWatchdog.csproj", "{5EF60957-A563-45FC-867F-87B1C671F6AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog.Core", "HelixWatchdog.Core\HelixWatchdog.Core.csproj", "{B4462406-5317-450D-A2F2-0DD6CC6307B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixWatchdog.Tests", "HelixWatchdog.Tests\HelixWatchdog.Tests.csproj", "{EC6F7D9B-059B-4260-9AC9-0A7F86E35ADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10BD501C-0F5E-4956-BC57-8AA73C7251E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10BD501C-0F5E-4956-BC57-8AA73C7251E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10BD501C-0F5E-4956-BC57-8AA73C7251E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10BD501C-0F5E-4956-BC57-8AA73C7251E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{500D5F2E-3A69-4C19-8E24-C31349B274A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{500D5F2E-3A69-4C19-8E24-C31349B274A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{500D5F2E-3A69-4C19-8E24-C31349B274A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{500D5F2E-3A69-4C19-8E24-C31349B274A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4462406-5317-450D-A2F2-0DD6CC6307B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4462406-5317-450D-A2F2-0DD6CC6307B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4462406-5317-450D-A2F2-0DD6CC6307B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4462406-5317-450D-A2F2-0DD6CC6307B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF59581-7C34-4231-872D-18DBE3761891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF59581-7C34-4231-872D-18DBE3761891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF59581-7C34-4231-872D-18DBE3761891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF59581-7C34-4231-872D-18DBE3761891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF60957-A563-45FC-867F-87B1C671F6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF60957-A563-45FC-867F-87B1C671F6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF60957-A563-45FC-867F-87B1C671F6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF60957-A563-45FC-867F-87B1C671F6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6F7D9B-059B-4260-9AC9-0A7F86E35ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6F7D9B-059B-4260-9AC9-0A7F86E35ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6F7D9B-059B-4260-9AC9-0A7F86E35ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6F7D9B-059B-4260-9AC9-0A7F86E35ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
