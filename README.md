@@ -1,5 +1,5 @@
 # HelixWatchdog
-Command line application that validates Helix references inside the 'src' folder. This tool checks for any kind of reference by checking .cs, .csproj, .config files for strings.
+Command line application that validates Helix references inside the 'src' folder. Watchdog not only checks project references but also finds any other kind of dependency by checking .cs, .csproj, .config files for namespace references.
 
 ## Usage
 
